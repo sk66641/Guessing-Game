@@ -7,11 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="key">
+        <p><b>KEY:</b></p>
+        <ul>
+            <li class="correct-guess">Correct Guess</li>
+            <li class="incorrect-guess-high">Higher Guess</li>
+            <li class="incorrect-guess-low">Lower Guess</li>
+        </ul>
+    </div>
     <div id="content">
         <h1>Guess A Random Number!</h1>
         <input type="text" id="userGuess" placeholder="Enter your guess!"><br>
         <button onclick="fun()" type="submit"><b>SUBMIT</b></button>
+        <button onclick="resetGame()"><b>RESET</b></button>
         <p id="message"></p>
+        <table id="guesses">
+            <caption></caption>
+        </table>
     </div>
     <script src="script.js"></script>
 </body>
