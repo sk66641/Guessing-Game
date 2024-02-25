@@ -7,9 +7,10 @@ This project is a simple guessing game where a random number is generated, and t
 - Enter your guess in the input field and click the "Submit" button.
 - The game will provide feedback on whether your guess is high or low.
 - Keep guessing until you correctly guess the number.
+- You can reset the game with the "Reset" button.
 
 ## Project Details
-This project was the first assignment in the Web Technology subject taught by Dr. Gargi Srivastava. It was developed according to the functionalities and fundamentals taught in the class. The project demonstrates basic HTML, CSS, and JavaScript concepts, including DOM manipulation and event handling.
+This project was an assignment in the Web Technology subject taught by Dr. Gargi Srivastava. It was developed according to the functionalities and fundamentals taught in the class. The project demonstrates basic HTML, CSS, and JavaScript concepts, including DOM manipulation and event handling.
 
 ## Development
-This project was developed using HTML, CSS, and JavaScript. The random number generation and guess checking logic are implemented in JavaScript. The styling and layout are done using CSS to provide a simple and intuitive user interface.
+This project was developed using HTML, CSS, and JavaScript. The random number generation and guess-checking logic are implemented in JavaScript. The styling and layout use CSS to provide a simple and intuitive user interface.
