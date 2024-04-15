@@ -42,3 +42,24 @@ function fun(){
 function resetGame() {
     location.reload();
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    document.addEventListener("keydown", (event) => {
+        if (event.key == "Enter") {
+            fun();
+        }
+        else if (event.key == "F5") {
+            resetGame();
+        }
+        else if (event.key == "Escape") {
+            document.getElementById("userGuess").focus();
+        }
+        document.getElementById("userGuess").addEventListener("keydown", (event) => {
+
+            if (event.key == "Delete") {
+                document.getElementById("userGuess").value = "";
+            }
+        })
+    })
+})
